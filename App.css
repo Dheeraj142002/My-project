@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d1b1b;
+  padding: 15px 50px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  align-items: center;
+}
+
+.order-btn {
+  background: white;
+  color: #ff4d4d;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SLIDER */
+.slider-container {
+  width: 100%;
+}
+
+.slide {
+  height: 90vh;
+  display: flex !important;
+  align-items: center;
+  padding-left: 80px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide1 {
+  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+}
+
+.slide2 {
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+}
+
+.slide3 {
+  background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352");
+}
+
+.slide-text h1 {
+  font-size: 50px;
+}
+
+.slide-text p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Meals */
+.meals {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.meal-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+}
+
+.card p {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Features */
+.features {
+  background: #f9f9f9;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
